@@ -2,7 +2,7 @@ module.exports = {
   plugins: ['~plugins/vue-lazyload', '~plugins/app'],
   env: {
     // your JSON API server URL :
-    jsonApiServer: 'http://dev-contenta-shoreline.pantheonsite.io',
+    jsonApiServer: 'https://dev-contenta-shoreline.pantheonsite.io',
     jsonApiPrefix: 'api'
   },
   router: {
