@@ -2,7 +2,7 @@ module.exports = {
   plugins: ['~plugins/vue-lazyload', '~plugins/app'],
   env: {
     // your JSON API server URL :
-    jsonApiServer: 'https://live-contentacms.pantheonsite.io',
+    jsonApiServer: 'http://dev-contenta-shoreline.pantheonsite.io',
     jsonApiPrefix: 'api'
   },
   router: {
@@ -36,7 +36,7 @@ module.exports = {
   ** Customize the progress-bar color
   */
   loading: { color: '#3B8070' },
-  
+
   /*
   ** Modules
   */
